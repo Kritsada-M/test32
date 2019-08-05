@@ -1,21 +1,30 @@
 <% include ../partials/head %>
 
 <body>
-<% include ../partials/topbar %>
+  <% include ../partials/topbar %>
+
+  <div class="ui main text container"style="border: 1px solid #A0A0A0;padding:1rem;">
 
 
-  <div class="ui main text container" style="border: 1px solid #000;padding:1rem;">
-
-    <div class="ui container" style="padding:0rem 0rem 2rem 0rem">
+    <div class="ui container"style="padding:5rem 0rem 2rem 0rem">
       <% include ../pages/researcher/headerForIndex %>
     </div>
-    <div class="ui four cards link stackable grid container">
+
+    <div class="ui divider"></div>
+
+    <div class="ui five cards link stackable grid container  sizer vertical segment">
       <% include ../pages/researcher/researcher %>
     </div>
 
+<div class="ui divider"></div>
+
   </div>
 
-<% include ../partials/footer %>
+
+
+
+
+  <% include ../partials/footer %>
 </body>
 
 </html>
